@@ -1,5 +1,5 @@
 import {configureStore} from "@reduxjs/toolkit";
-import { pdfApi } from "../services/pdfApi";
+import { pdfApi } from "@/services/pdfApi";
 
 export const store = configureStore({
   reducer: {
