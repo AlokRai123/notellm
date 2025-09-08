@@ -13,7 +13,8 @@ export default function Page() {
 
     <>
     <SignedIn>
-    <div className="max-w-7xl mx-auto mt-5 px-4">
+
+     <div className="max-w-7xl mx-auto mt-5 px-4">
       <div className="flex flex-col lg:flex-row gap-4 min-h-[85vh]">
         <div className="bg-neutral-800/40 w-full lg:w-1/3 rounded-xl">
           <SourceBox
