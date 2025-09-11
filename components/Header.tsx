@@ -2,13 +2,11 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Moon, Sun, BookOpen, HelpCircle, DollarSign, LogIn } from "lucide-react";
+import { LogIn } from "lucide-react";
 import Link from "next/link";
 // import { useTheme } from "next-themes";
 import {
-  ClerkProvider,
   SignInButton,
-  SignUpButton,
   SignedIn,
   SignedOut,
   UserButton,

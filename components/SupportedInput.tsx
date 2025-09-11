@@ -1,5 +1,5 @@
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
-import { CheckCircle, ArrowRight, Lightbulb, Brain } from "lucide-react";
+import { CheckCircle, ArrowRight, Lightbulb } from "lucide-react";
 
 
 export default function SupportedInputs({ inputTypes }: { inputTypes: Array<any> }) {

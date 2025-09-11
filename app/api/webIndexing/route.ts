@@ -1,9 +1,9 @@
-import { indexing } from "@/rag/Indexing";
+
 import { webIndexing } from "@/rag/webIndexing";
 import { ApiError } from "@/utils/ApiError";
 import { ApiResponse } from "@/utils/ApiResponse";
 import {
-  validatePDFIndexing,
+  
   validateWebsiteIndexing,
 } from "@/validators/indexingApi.validator";
 import { NextResponse, NextRequest } from "next/server";

@@ -1,5 +1,5 @@
 "use client";
-import React, { useCallback, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import {
   Upload,
   Link as LinkIcon,
@@ -34,7 +34,6 @@ export default function UploadSourcesModal({
   onCopiedTextClick,
   onYoutubeClick,
   accept = defaultAccept,
-  multiple = true,
   open,
   onOpenChange,
 }: UploadSourcesModalProps) {

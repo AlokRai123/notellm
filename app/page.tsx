@@ -1,9 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { 
-  Upload, 
+import { Card, CardContent } from "@/components/ui/card";
+import {  
   MessageSquare, 
   HelpCircle, 
   Brain, 
@@ -12,26 +11,19 @@ import {
   Copy, 
   Video,
   ArrowRight,
-  CheckCircle,
-  AlertCircle,
-  Lightbulb,
   Zap,
   Search,
-  Download,
   Play,
-  ChevronDown,
-  ChevronUp,
-  LineChart
 } from "lucide-react";
 import Link from "next/link";
 import SupportedInputs from "@/components/SupportedInput";
 
 const Page = () => {
-  const [expandedSection, setExpandedSection] = useState(null);
+  // const [expandedSection, setExpandedSection] = useState(null);
 
-  const toggleSection = (section:any) => {
-    setExpandedSection(expandedSection === section ? null : section);
-  };
+  // const toggleSection = (section:any) => {
+  //   setExpandedSection(expandedSection === section ? null : section);
+  // };
 
   const inputTypes = [
     {
